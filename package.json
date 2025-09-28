@@ -1,30 +1,33 @@
 {
-	"name": "lofi-and-chill",
-	"private": true,
-	"version": "0.0.1",
-	"type": "module",
-	"scripts": {
-		"dev": "vite dev",
-		"build": "vite build",
-		"preview": "vite preview",
-		"prepare": "svelte-kit sync || echo ''",
-		"db:push": "drizzle-kit push",
-		"db:generate": "drizzle-kit generate",
-		"db:migrate": "drizzle-kit migrate",
-		"db:studio": "drizzle-kit studio"
-	},
-	"devDependencies": {
-		"@libsql/client": "^0.14.0",
-		"@sveltejs/adapter-auto": "^6.0.0",
-		"@sveltejs/kit": "^2.22.0",
-		"@sveltejs/vite-plugin-svelte": "^6.0.0",
-		"@tailwindcss/vite": "^4.0.0",
-		"@types/node": "^22",
-		"daisyui": "^5.1.25",
-		"drizzle-kit": "^0.30.2",
-		"drizzle-orm": "^0.40.0",
-		"svelte": "^5.0.0",
-		"tailwindcss": "^4.0.0",
-		"vite": "^7.0.4"
-	}
+  "name": "lofi-and-chill",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview",
+    "prepare": "svelte-kit sync || echo ''",
+    "db:push": "drizzle-kit push",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate",
+    "db:studio": "drizzle-kit studio"
+  },
+  "devDependencies": {
+    "@libsql/client": "^0.14.0",
+    "@sveltejs/adapter-auto": "^6.0.0",
+    "@sveltejs/kit": "^2.22.0",
+    "@sveltejs/vite-plugin-svelte": "^6.0.0",
+    "@tailwindcss/vite": "^4.0.0",
+    "@types/node": "^22",
+    "daisyui": "^5.1.25",
+    "drizzle-kit": "^0.30.2",
+    "drizzle-orm": "^0.40.0",
+    "svelte": "^5.0.0",
+    "tailwindcss": "^4.0.0",
+    "vite": "^7.0.4"
+  },
+  "dependencies": {
+    "@fontsource-variable/dm-sans": "^5.2.8"
+  }
 }

@@ -2,4 +2,8 @@
   let { theme } = $props();
 </script>
 
-<input type="checkbox" value={theme} class="toggle theme-controller" />
+<input
+  type="checkbox"
+  value={theme}
+  class="toggle toggle-sm toggle-primary theme-controller"
+/>

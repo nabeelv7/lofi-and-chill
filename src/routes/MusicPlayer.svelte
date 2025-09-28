@@ -9,6 +9,11 @@
   let songs = [
     { name: "Main Rahun", singer: "Samar Jafri", link: "/main-rahun.mp3" },
     { name: "Zaalima", singer: "Abdul Hannan", link: "/zaalima.mp3" },
+    {
+      name: "Kehdena",
+      singer: "Annural Khalid",
+      link: "/kehdena.mp3",
+    },
   ];
 
   function togglePlay() {
