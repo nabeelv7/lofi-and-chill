@@ -31,7 +31,7 @@
 
 <dialog bind:this={shareds.modal} id="signup-modal" class="modal">
   <div class="modal-box w-fit min-w-sm">
-    <h3 class="text-2xl font-bold mb-5">👋 Just a little info</h3>
+    <h3 class="text-2xl font-bold mb-5">👤 Account Settings</h3>
 
     <!-- form -->
     <p class="mb-2">What is your name?</p>

@@ -4,6 +4,7 @@
   let index = $state(0);
   let isPlaying = $state(false);
   let progress = $state(0);
+  let playButton = $state();
   let audioEl;
 
   let songs = [
@@ -91,6 +92,7 @@
         >{@render PlayPrevious()}</button
       >
       <button
+        bind:this={playButton}
         class="btn btn-circle btn-primary flex justify-center items-center"
         onclick={togglePlay}
       >
